@@ -6,38 +6,29 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>Login Ldc</title>
-    <body class="backgroud">
-    	<div class="grid">
-    		<div class="row cells12">
-    			<div style="opacity: 1; transform: scale(1); transition: all 0.5s ease 0s;" class="login-form padding20 block-shadow">
-			        <form>
-			            <h1 class="text-light">Login to service</h1>
-			            <hr class="thin">
-			            <br>
-			            <div class="input-control text full-size" data-role="input">
-			                <label for="user_login">User email:</label>
-			                <input style="padding-right: 39px;" name="user_login" id="user_login" type="text">
-			                <button type="button" tabindex="-1" class="button helper-button clear"><span class="mif-cross"></span></button>
-			            </div>
-			            <br>
-			            <br>
-			            <div class="input-control password full-size" data-role="input">
-			                <label for="user_password">User password:</label>
-			                <input style="padding-right: 39px;" name="user_password" id="user_password" type="password">
-			                <button type="button" tabindex="-1" class="button helper-button reveal"><span class="mif-looks"></span></button>
-			            </div>
-			            <br>
-			            <br>
-			            <div class="form-actions">
-			                <a href="index.jsp"><button type="button" class="button primary">Login to...</button></a>
-			                <a href="index.jsp"><button type="button" class="button link">Cancel</button></a>
-			            </div>
-			        </form>
-			    </div>
-    		</div>
-    	</div>
-      <script src="js/jquery-2.1.3.min.js"></script>
-      <script src="js/jquery.min.js"></script>
-      <script src="js/metro.min.js"></script>
-    </body>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+<body class="bg-backgroud">
+  	<div class = "container">
+	<div class="wrapper">
+		<form action="" method="post" name="Login_Form" class="form-signin">       
+		    <div class="form-signin-heading"><img alt="" src="images/logo-web-ldcdental.png"></div>
+			  <hr class="colorgraph"><br>
+			  
+			  <input type="text" class="form-control" name="Username" placeholder="Username" required="" autofocus="" />
+			  <input type="password" class="form-control" name="Password" placeholder="Password" required=""/>     		  
+			 
+				  <button class="btn btn-lg btn-primary-sky btn-block"  name="Submit" value="Login" type="Submit">Login</button>  			
+				 <br>
+				 <a href="#" class="forgot-password">
+               		 Forgot the password?
+           		 </a>	
+			</form>	
+				
+		</div>
+	</div>
+	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/npm.js"></script>
+ </body>
 </html>
