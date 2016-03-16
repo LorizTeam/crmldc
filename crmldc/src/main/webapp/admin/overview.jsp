@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="en">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -231,3 +232,15 @@
   </script>
 
 </body></html>
+=======
+<html>
+	<head>
+		<title>LDC</title>
+		<link rel="stylesheet" href="css/bootstrap.css"/>
+	</head>
+	<body>
+	sdfsdf
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>
+>>>>>>> origin/master
