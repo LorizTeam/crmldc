@@ -6,9 +6,12 @@
 	<head>
 		<title>LDC</title>
 		<link rel="stylesheet" href="css/bootstrap.css"/>
+		<link rel="stylesheet" href="css/bootstrap-theme.css"/>
 	</head>
 	<body>
-	sdfsdf
+	
+	
+		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.js"></script>
 	</body>
 </html>
