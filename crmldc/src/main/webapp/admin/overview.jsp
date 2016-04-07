@@ -47,130 +47,89 @@
             </div>
           </div>
 
-          <h2 class="sub-header">Section title</h2>
+          <h2 class="sub-header">Clinic Snapshot</h2>
           <div class="table-responsive">
             <table class="table table-striped">
               <thead>
                 <tr>
-                  <th>#</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                  <th>Header</th>
+                  <th>Date</th>
+                  <th>Fee</th>
+                  <th>Ortho</th>
+                  <th>Xray</th>
+                  <th>Rx</th>
+                  <th>Pd</th>
+                  <th>total</th>
+                  <th>+-%</th>
+                  <th>Cash</th>
+                  <th>Credit</th>
+                  <th>Other</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>1,001</td>
-                  <td>Lorem</td>
-                  <td>ipsum</td>
-                  <td>dolor</td>
-                  <td>sit</td>
+                  <td>9/6/2558</td>
+                  <td>12,810</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>12,810</td>
+                  <td>-204%</td>
+                  <td>11,010</td>
+                  <td></td>
+                  <td>1,800</td>
                 </tr>
                 <tr>
-                  <td>1,002</td>
-                  <td>amet</td>
-                  <td>consectetur</td>
-                  <td>adipiscing</td>
-                  <td>elit</td>
+                  <td>8/6/2558</td><!-- date -->
+                  <td>38,700</td><!-- fee -->
+                  <td></td><!-- ortho -->
+                  <td></td><!-- xray -->
+                  <td>130</td><!-- rx -->
+                  <td>50</td><!-- pd -->
+                  <td>38,880</td><!-- total -->
+                  <td>+24%</td><!-- +-% -->
+                  <td>38,880</td><!-- cash -->
+                  <td></td><!-- credit -->
+                  <td></td><!-- other -->
                 </tr>
                 <tr>
-                  <td>1,003</td>
-                  <td>Integer</td>
-                  <td>nec</td>
-                  <td>odio</td>
-                  <td>Praesent</td>
+                  <td>7/6/2558</td><!-- date -->
+                  <td>29,450</td><!-- fee -->
+                  <td></td><!-- ortho -->
+                  <td></td><!-- xray -->
+                  <td>135</td><!-- rx -->
+                  <td></td><!-- pd -->
+                  <td>29,585</td><!-- total -->
+                  <td>-24%</td><!-- +-% -->
+                  <td>24,585</td><!-- cash -->
+                  <td>5000</td><!-- credit -->
+                  <td></td><!-- other -->
                 </tr>
                 <tr>
-                  <td>1,003</td>
-                  <td>libero</td>
-                  <td>Sed</td>
-                  <td>cursus</td>
-                  <td>ante</td>
+                  <td>6/6/2558</td><!-- date -->
+                  <td>36,250</td><!-- fee -->
+                  <td></td><!-- ortho -->
+                  <td></td><!-- xray -->
+                  <td></td><!-- rx -->
+                  <td>560</td><!-- pd -->
+                  <td>36,810</td><!-- total -->
+                  <td>+1%</td><!-- +-% -->
+                  <td>31,360</td><!-- cash -->
+                  <td>3,950</td><!-- credit -->
+                  <td>1,500</td><!-- other -->
                 </tr>
                 <tr>
-                  <td>1,004</td>
-                  <td>dapibus</td>
-                  <td>diam</td>
-                  <td>Sed</td>
-                  <td>nisi</td>
-                </tr>
-                <tr>
-                  <td>1,005</td>
-                  <td>Nulla</td>
-                  <td>quis</td>
-                  <td>sem</td>
-                  <td>at</td>
-                </tr>
-                <tr>
-                  <td>1,006</td>
-                  <td>nibh</td>
-                  <td>elementum</td>
-                  <td>imperdiet</td>
-                  <td>Duis</td>
-                </tr>
-                <tr>
-                  <td>1,007</td>
-                  <td>sagittis</td>
-                  <td>ipsum</td>
-                  <td>Praesent</td>
-                  <td>mauris</td>
-                </tr>
-                <tr>
-                  <td>1,008</td>
-                  <td>Fusce</td>
-                  <td>nec</td>
-                  <td>tellus</td>
-                  <td>sed</td>
-                </tr>
-                <tr>
-                  <td>1,009</td>
-                  <td>augue</td>
-                  <td>semper</td>
-                  <td>porta</td>
-                  <td>Mauris</td>
-                </tr>
-                <tr>
-                  <td>1,010</td>
-                  <td>massa</td>
-                  <td>Vestibulum</td>
-                  <td>lacinia</td>
-                  <td>arcu</td>
-                </tr>
-                <tr>
-                  <td>1,011</td>
-                  <td>eget</td>
-                  <td>nulla</td>
-                  <td>Class</td>
-                  <td>aptent</td>
-                </tr>
-                <tr>
-                  <td>1,012</td>
-                  <td>taciti</td>
-                  <td>sociosqu</td>
-                  <td>ad</td>
-                  <td>litora</td>
-                </tr>
-                <tr>
-                  <td>1,013</td>
-                  <td>torquent</td>
-                  <td>per</td>
-                  <td>conubia</td>
-                  <td>nostra</td>
-                </tr>
-                <tr>
-                  <td>1,014</td>
-                  <td>per</td>
-                  <td>inceptos</td>
-                  <td>himenaeos</td>
-                  <td>Curabitur</td>
-                </tr>
-                <tr>
-                  <td>1,015</td>
-                  <td>sodales</td>
-                  <td>ligula</td>
-                  <td>in</td>
-                  <td>libero</td>
+                  <td>5/6/2558</td><!-- date -->
+                  <td>36,100</td><!-- fee -->
+                  <td></td><!-- ortho -->
+                  <td></td><!-- xray -->
+                  <td>80</td><!-- rx -->
+                  <td>140</td><!-- pd -->
+                  <td>36,320</td><!-- total -->
+                  <td>-46%</td><!-- +-% -->
+                  <td>34,420</td><!-- cash -->
+                  <td></td><!-- credit -->
+                  <td>1,900</td><!-- other -->
                 </tr>
               </tbody>
             </table>
@@ -201,8 +160,6 @@
   		        	 expanded: false,
   		        	 },
   		        	 selectable: true,
-  		        	 icon: " glyphicon glyphicon-menu-right",
-  		        	 selectedIcon: " glyphicon glyphicon-menu-down",
   		            nodes: [
   		              {
   		                text: "Child 1",
